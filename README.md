@@ -106,6 +106,12 @@ For streaming applications rebuilding every 60s:
 ├── madhava_v5_benchmark.ipynb  # Main notebook (Numba + calibrated)
 ├── madhava_qrjl_benchmark.py   # Standalone script
 ├── streaming_benchmark.py      # Stream-optimized version
+├── madhava_v12.py              # Config-driven v12 (main module)
+├── config.json                 # Main configuration file
+├── config_64_128.json          # High-res preset: [64,128] dimensions
+├── config_32_64.json           # Balanced preset: [32,64] dimensions
+├── CONFIG.md                   # Full configuration guide
+├── streaming_benchmark.py      # Stream-optimized version
 ├── gen_charts.py               # Chart generation script
 ├── README.md                   # This file
 ├── LICENSE                     # BSL 1.1
