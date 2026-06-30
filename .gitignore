@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+.venv
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Kaggle
+kaggle.json
+kernel-metadata.json
+*.log
+
+# Data
+*.csv
+*.json
+!madhava_v5_results.json
+!madhava_adaptive_results.json
+**/__pycache__/
+
+# Temp
+tmp/
+temp/
